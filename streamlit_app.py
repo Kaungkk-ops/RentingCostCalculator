@@ -88,7 +88,7 @@ with tab_monthly:
 
         rent_period = st.radio(
             "Is the rent amount weekly or monthly?", 
-            ("Weekly", "Monthly"), horizontal=True, key="rent_period2"
+            ("Weekly", "Monthly"), horizontal=True, key="rent_period1"
         )
         if rent_period == "Weekly":
             weekly_rent = st.number_input(
